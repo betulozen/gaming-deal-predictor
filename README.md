@@ -20,20 +20,16 @@ Forecasting of Future Steam Discounts Using Historical Discount Dynamics"*
 - **Best result**: Random Forest — Accuracy 0.823, weighted F1 0.827, OvR AUC 0.943.
 
 ## Repository Structure
-notebooks/
-├── gaming_deal_predictor_v7.ipynb     # Data collection, feature engineering, training pipeline
-└── training_evaluation_v7.ipynb       # Model evaluation, hyperparameter tuning, error analysis
-data/
-├── train_v7.csv                       # Training split (post feature engineering)
-└── test_v7.csv                        # Test split (post feature engineering)
-models/
-├── model_v7_random_forest.joblib
-├── model_v7_gradient_boosting.joblib
-├── model_v7_logistic_regression.joblib
-├── model_v7_naive_bayes.joblib
-├── imputer_v7.joblib
-└── scaler_v7.joblib
-model_meta_v7.json                     # Feature list, class names, best model reference
+
+**notebooks/**
+- `gaming_deal_predictor_v7.ipynb` — Data collection, feature engineering, training pipeline
+- `training_evaluation_v7.ipynb` — Model evaluation, hyperparameter tuning, error analysis
+
+**data/**
+- `train_v7.csv` — Training split (post feature engineering)
+- `test_v7.csv` — Test split (post feature engineering)
+
+**model_meta_v7.json** — Feature list, class names, best model reference
 
 ## How to Reproduce
 
