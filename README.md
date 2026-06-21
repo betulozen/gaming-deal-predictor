@@ -8,7 +8,7 @@ This repository accompanies the paper *"Gaming Deal Predictor: Multi-Class
 Forecasting of Future Steam Discounts Using Historical Discount Dynamics"*
 (Özen & Patoz, 2026).
 
-# Overview
+## Overview
 
 - **Task**: Forecast whether a Steam game will reach a *No/Small (<50%)*,
   *Medium (50–75%)*, or *Big (≥75%)* discount within the next 90 days.
