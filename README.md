@@ -33,18 +33,18 @@ Forecasting of Future Steam Discounts Using Historical Discount Dynamics"*
 
 ## How to Reproduce
 
-1. **Run the main pipeline notebook** — `notebooks/gaming_deal_predictor_v7.ipynb`
+1. **Run the main pipeline notebook** — `gaming_deal_predictor/notebooks/gaming_deal_predictor_v7.ipynb`
    - Collects game data from SteamSpy, Steam Store, and ITAD
    - Builds 90-day rolling prediction windows and engineers 8 temporal features
    - Applies the combined temporal–game split
    - Trains all four models and saves the files in `data/`, `models/`, and `model_meta_v7.json`
 
-2. **Run the evaluation notebook** — `notebooks/training_evaluation_v7.ipynb`
+2. **Run the evaluation notebook** — `gaming_deal_predictor/notebooks/training_evaluation_v7.ipynb`
    - Loads the artifacts produced in step 1
    - Reproduces all metrics, confusion matrices, ROC curves, and hyperparameter tuning results reported in the paper
 
 You will need your own free ITAD API key to run the data collection step.
-Get one at (https://isthereanydeal.com/apps/)
+Get one at [isthereanydeal.com/apps](https://isthereanydeal.com/apps)
 and set it in the `ITAD_KEY` variable in the first notebook.
 
 ## Features
