@@ -1,0 +1,26 @@
+{
+  "best_model_name": "Random Forest",
+  "features": [
+    "game_age_days",
+    "days_since_last_discount",
+    "n_itad_records",
+    "max_discount_prev",
+    "avg_discount_depth_prev",
+    "n_big_discounts_prev",
+    "avg_discount_frequency",
+    "never_discounted"
+  ],
+  "class_names": [
+    "No/Small (<50%)",
+    "Medium (50\u201375%)",
+    "Big (75\u2013100%)"
+  ],
+  "window_days": 90,
+  "model_names": [
+    "Logistic Regression",
+    "Random Forest",
+    "Gradient Boosting",
+    "Naive Bayes"
+  ],
+  "version": "v7"
+}
