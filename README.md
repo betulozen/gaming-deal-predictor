@@ -4,10 +4,6 @@ Multi-class machine learning framework forecasting the maximum discount tier a S
 game is expected to reach within a future 90-day period, using historical pricing
 dynamics collected from SteamSpy, Steam Store, and IsThereAnyDeal (ITAD) APIs.
 
-This repository accompanies the paper *"Gaming Deal Predictor: Multi-Class
-Forecasting of Future Steam Discounts Using Historical Discount Dynamics"*
-(Özen & Patoz, 2026).
-
 ## Overview
 
 - **Task**: Forecast whether a Steam game will reach a *No/Small (<50%)*,
